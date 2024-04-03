@@ -1,13 +1,17 @@
 package com.example.demo.model;
 
 import jakarta.persistence.Entity;
+import jakarta.persistence.Table;
 
 @Entity
-public class Gerente extends Funcionario {
+@Table(name = "gerentes")
+public class Gerente extends Funcionario implements Autenticavel {
     private int senha;
     private int numFuncGerenciados;
 
+    // Construtores
     public Gerente() {
+        super();
     }
 
     public Gerente(String nome, String cpf, double salario, int senha, int numFuncGerenciados) {
@@ -16,6 +20,7 @@ public class Gerente extends Funcionario {
         this.numFuncGerenciados = numFuncGerenciados;
     }
 
+    // Getters e Setters
     public int getSenha() {
         return senha;
     }
@@ -31,4 +36,11 @@ public class Gerente extends Funcionario {
     public void setNumFuncGerenciados(int numFuncGerenciados) {
         this.numFuncGerenciados = numFuncGerenciados;
     }
+
+    // Implementação do método da interface Autenticavel
+    @Override
+    public boolean autentica(int senha) {
+        return this.senha == senha;
+    }
 }
+

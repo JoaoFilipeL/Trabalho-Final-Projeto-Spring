@@ -18,31 +18,16 @@ public class GerenteService {
         return gerenteRepository.findAll();
     }
 
-    public Gerente criar(Gerente gerente) {
-        return gerenteRepository.save(gerente);
-    }
-
-    public Gerente atualizar(Long id, Gerente gerenteDetalhes) {
-        return gerenteRepository.findById(id).map(gerente -> {
-            gerente.setNome(gerenteDetalhes.getNome());
-            gerente.setCpf(gerenteDetalhes.getCpf());
-            gerente.setSalario(gerenteDetalhes.getSalario());
-            gerente.setSenha(gerenteDetalhes.getSenha());
-            gerente.setNumFuncGerenciados(gerenteDetalhes.getNumFuncGerenciados());
-            return gerenteRepository.save(gerente);
-        }).orElse(null);
-    }
-
-    public boolean deletar(Long id) {
-        if(gerenteRepository.existsById(id)) {
-            gerenteRepository.deleteById(id);
-            return true;
-        } else {
-            return false;
-        }
-    }
-
     public Optional<Gerente> buscarPorId(Long id) {
         return gerenteRepository.findById(id);
     }
+
+    public Gerente salvar(Gerente gerente) {
+        return gerenteRepository.save(gerente);
+    }
+
+    public void deletar(Long id) {
+        gerenteRepository.deleteById(id);
+    }
 }
+

@@ -1,4 +1,5 @@
-# Sistema de Gerenciamento de Pedidos
+<h1 align="center">Sistema de Gerenciamento de Pedidos</h1>
+
 
 ## Descrição
 

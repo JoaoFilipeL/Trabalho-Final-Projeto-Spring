@@ -24,5 +24,5 @@ O **Sistema de Gerenciamento de Pedidos** é um facilitador do processo de gest�
 
 Segue uma demonstração do sistema:
 
-(https://img.youtube.com/vi/BRDfr1Wd6q4/0.jpg)](https://www.youtube.com/watch?v=BRDfr1Wd6q4 - Clique para Assistir!
+https://www.youtube.com/watch?v=BRDfr1Wd6q4 - Clique para Assistir!
 

@@ -29,14 +29,7 @@ public class PedidoService {
     }
 
     public Pedido salvar(Pedido pedido) {
-        // Calcula o total baseado nos produtos do pedido
-        double total = Optional.ofNullable(pedido.getProdutos())
-                .orElseGet(Collections::emptyList) // Retorna uma lista vazia se os produtos forem null
-                .stream()
-                .filter(Objects::nonNull) // Filtra qualquer produto que seja null
-                .mapToDouble(produto -> Optional.ofNullable(produto.getPrecoPro()).orElse(0.0)) // Usa 0.0 para preço se for null
-                .sum();
-        pedido.setTotal(total);
+
 
         return pedidoRepository.save(pedido);
     }

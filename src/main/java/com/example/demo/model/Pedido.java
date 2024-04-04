@@ -60,13 +60,6 @@ public class Pedido {
         this.produtos = produtos;
     }
 
-    public Double getTotal() {
-        return total;
-    }
-
-    public void setTotal(Double total) {
-        this.total = total;
-    }
 
     // Método utilitário para adicionar um produto ao pedido
     public void adicionarProduto(Produto produto) {

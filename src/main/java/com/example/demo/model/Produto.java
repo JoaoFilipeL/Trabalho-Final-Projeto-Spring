@@ -50,9 +50,7 @@ public class Produto {
     }
 
     // Setters
-    public void setId(Long id) {
-        this.idPro = idPro;
-    }
+    public void setIdPro(Long idPro) { this.idPro = idPro; }
 
     public void setNomePro(String nomePro) {
         this.nomePro = nomePro;

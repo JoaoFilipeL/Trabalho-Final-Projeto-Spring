@@ -4,7 +4,7 @@
 
 ## 📘 Descrição
 
-O **Sistema de Gerenciamento de Pedidos** é uma solução de software desenvolvida para facilitar e otimizar o processo de gestão de pedidos dentro de um contexto empresarial. Este sistema permite a realização e acompanhamento de pedidos, gestão de clientes e produtos, e administração de tarefas relacionadas a funcionários e gerentes. Implementado com foco em conceitos de **Programação Orientada a Objetos**, o projeto visa proporcionar um código modular, fácil de expandir e manter.
+O **Sistema de Gerenciamento de Pedidos** é um facilitador do processo de gestão de pedidos dentro de um contexto empresarial. Este sistema permite a realização e acompanhamento de pedidos, gestão de clientes e produtos, e administração de tarefas relacionadas a funcionários e gerentes. Implementado com foco em conceitos de **Programação Orientada a Objetos**, o projeto visa proporcionar um código modular, fácil de expandir e manter.
 
 ## 💻 Tecnologias Utilizadas
 

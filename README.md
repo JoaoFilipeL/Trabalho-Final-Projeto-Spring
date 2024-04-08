@@ -1,4 +1,4 @@
-<h1 align="center">📦 Sistema de Gerenciamento de Pedidos 📦</h1>
+<h1 align="center">📦 SystemManagementApp 📦</h1>
 
 ---
 

@@ -20,9 +20,4 @@ O **Sistema de Gerenciamento de Pedidos** é um facilitador do processo de gest�
 - Gestão de produtos, incluindo estoque e descrições.
 - Autenticação e autorização de usuários com diferentes níveis de acesso.
 
-## 🎥 Link do nosso vídeo
-
-Segue uma demonstração do sistema:
-
-https://www.youtube.com/watch?v=BRDfr1Wd6q4 - Clique para Assistir!
 
